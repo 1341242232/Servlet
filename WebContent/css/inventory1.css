@@ -1,0 +1,493 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.box0{
+	width: 94%;
+	margin: 0 auto;
+	border: solid 1px  #dddddd;
+	border-radius: 4px;
+	margin-top: 20px;
+}
+.box1{
+	width: 98%;
+	height:80vh;
+	margin: 0 auto;
+	border-radius: 5px;
+	margin-top: 35px;
+	
+}
+.header{
+	width: 100%;
+	font-size: 13px;
+}
+.header a{
+	color: black;
+	text-decoration: none;
+}
+.box1-nav1{
+	width: 100%;
+	height: 50px;
+	background-color: #f4f4f4;
+	border-bottom: 2px solid #dddddd;
+	display: inline-block;
+}
+.box1-nav1 img{
+	margin-left: 10px;
+	margin-top: 8px;
+}
+.box1-nav1 span{
+	position: relative;
+	top: -3px;
+}
+.box1-nav2{
+	widows: 100%;
+	height: 98px;
+	padding-top: 10px;
+}
+.box1-nav2 div{
+	display: inline-block;
+
+}
+.nav1,.nav3,.href{
+	height: 32px;
+}
+.nav1{
+	width:25.5%;
+	
+}
+.nav2{
+	width:17.5%;
+
+}
+.nav3{
+	width:35%;
+}
+.href{
+	width: 8%;
+}
+.href a{
+	color: black;
+	text-decoration: none;
+	font-size: 13px;
+	position: relative;
+	top: 4px;
+}
+.href a:hover{
+	color: #03B8CC;
+}
+.nav1-4{
+	width: 10%;
+}
+.nav1 div{ 
+	display: inline-block;	
+}
+.nav1 input{
+	height: 30px;
+	width: 200%;
+	border: solid 1px #dddddd;
+}
+.inner-div1{
+	width: 100%;
+	height:32px;
+}
+.inner-div1 div{
+	margin-top: 0px;
+	float: left;
+}
+.inner-div1 .nav1-4{
+	float: right;
+}
+.inner-nav1{
+	height: 30px;
+	width:20%;
+	border: solid 1px  #dddddd;
+	text-align: center;
+	position: relative;
+	border-top-left-radius: 3px;
+	border-bottom-left-radius: 3px
+}
+.inner-nav2{
+	height: 30px;
+	width: 35%;
+	border: solid 1px  #dddddd;
+	background-color: #dddddd;
+	text-align: center;
+	position: relative
+}
+.nav1 input{
+	border-top-right-radius: 3px;
+	border-bottom-right-radius: 3px;
+	width: 55.8%;
+}
+
+.nav2 select{
+	border-radius: 3px;
+	width: 10px;
+}
+.nav3 input{
+	border-top-right-radius: 3px;
+	border-bottom-right-radius: 3px;
+	width: 35%;
+}
+.inner-nav1{
+	background-color: #dddddd;
+	color: gray;
+	font-size: 15px;
+}
+.inner-nav1 div{
+	display: inline-block;
+}
+.span1{
+	position: relative;
+	top: 4px;
+}
+.nav2 select{
+	height: 32px;
+	width: 180px;
+	border: solid 1px  #dddddd;
+}
+.nav3 input{
+	height: 30px;
+	border: solid 1px  #dddddd;
+}
+.nav1-4 button{
+	width: 90px;
+	height: 32px;
+	background-color: #f0ad4e;
+	color: white;
+	border: none;
+	font-size: 16px;
+	border-radius: 3px;
+	float: right;
+	margin-left: 0px;
+}
+.nav1-4 button:hover{
+	background-color: #ec971f;
+	cursor: pointer;
+	float: right;
+}
+.bnt3 img{
+	padding-top: 4px;
+}
+.bnt3 span{
+	position: relative;
+	top: -4px;
+}
+.likn{
+	width: 100%;
+	border-bottom: solid 1px #f4f4f4;
+	float: right;
+}
+.nav4{
+	float: right;
+	margin-top:8px;
+}
+
+.nav4 button{
+	width: 97px;
+	height: 32px;
+	color: white;
+	font-size: 14px;
+	border-radius: 3px;
+}
+.bnt1{
+	background-color: #2F80D1;
+	border: none;
+}
+.bnt2{
+	position: relative;
+	top: -3px;
+}
+.bnt1 img{
+	margin-top: 3px;
+}
+.bnt1 span{
+	position: relative;
+	top: -4px;
+}
+.bnt2 img{
+	position: relative;
+	top: 3px;
+}
+.nav4 button:nth-child(1):hover{
+	background-color: rgb(40,96,144);
+	cursor: pointer;
+}
+.nav4 button:nth-child(2):hover{
+	background-color: rgb(201,48,44);
+	cursor: pointer;
+}
+.bnt2{
+	background-color: #d9534f;
+	border: none;
+}
+.table{
+	width: 100%;
+	height: 300px;
+	text-align: center;
+	margin-top: 5px;
+	font-size: 15px;
+	color: black;
+}
+td{
+	width:25vw;
+	height:30px;
+	color: black;
+}
+.table div{
+	width: 100%;
+	height: 30px;
+}
+#b1{
+margin-top:0 auto; 
+}
+.even td:hover{
+	color: #2F80D1;
+	
+}
+.even td{/*必须加td，代表的是一行进行*/
+	width:25vw;
+	  background-color:#BCD7DA;
+	  padding:2px 5px;
+	  }
+ .odd td{
+	  background-color:#f4f4f4;
+}
+.nav5{
+	width: 100%;
+	height: 100px;
+}
+.nav5 div{
+	display: inline-block;
+	height: 30px;
+	float: left;
+}
+.nav5-1{
+	width: 35%;
+	height: 30px;
+	font-size: 14px;
+	color: black;
+	text-align: left;
+}
+.rage{
+	width: 40%;
+	height: 30px;
+	margin-top: 3.5vh;
+}
+.rage :hover{
+	cursor:pointer;
+}
+.rage button{
+	float: left;
+	display: inline-block;
+	width: 35px;
+	height: 35px;
+	background-color: white;
+	border: none;
+	border: solid 1px #DDDDDD;
+}
+.rage :nth-child(1){
+	width:20%;
+	height: 35px;
+	border-top-left-radius: 5px;
+	border-bottom-left-radius: 5px;
+}
+.rage :last-child{
+	width: 20%;;
+	height: 35px;
+	border-top-right-radius: 5px;
+	border-bottom-right-radius: 5px;
+}
+.nav5-2{
+	width: 25%;
+	height: 30px;
+	text-align: right;
+	font-size: 14px;
+}
+.nav5-2 button{
+	height: 28px;
+	border: none;
+	background-color: white;
+	font-size: 14px;
+}
+.nav5-2 button:hover{
+	color: red;
+	cursor: pointer;
+}
+.nav5 input{
+	width: 25px;
+}
+.a1 img{
+	position: relative;
+	top: 4.5px;
+}
+.a1 div{
+	float: left;
+	margin-left: 5px;
+	position: relative;
+	left: 10%;
+}
+.button-div1{
+	background-color: rgb(65,151,65);
+	border-radius: 3px;
+	
+}
+.button-div1:hover{
+	background-color: mediumseagreen;
+}
+.button-div2{
+	background-color: #2F80D1;
+	border-radius: 3px;
+}
+.button-div2:hover{
+	background-color: #63A3E2;
+}
+.button-div3{
+	background-color: red;
+	border-radius: 3px;
+}
+.button-div3:hover{
+	background-color: crimson;
+}
+
+
+
+
+
+ .black_overlay{ 
+            display: none; 
+            position: absolute; 
+            top: 0%; 
+            left: 0%; 
+            width: 100%; 
+            height: 100%; 
+            background-color: black; 
+            z-index:1001; 
+            -moz-opacity: 0.8; 
+            opacity:.80; 
+            filter: alpha(opacity=88); 
+        } 
+        .white_content { 
+            display: none; 
+            position: absolute; 
+            top: 10.5%; 
+            left: 3%; 
+            width: 90.7%; 
+            height: 65%; 
+            padding: 20px; 
+            border: 1px solid #F4F4F4; 
+            background-color: #F9F9F7; 
+            z-index:1002; 
+            overflow: auto; 
+            border-radius: 4px;
+        } 
+ .onck-div{
+ 	width: 100%;
+ 	height: 94%;
+ 	font-size: 13px;
+ }
+ .onck-div div{
+ 	margin: 0 auto;
+ }
+ .onck-text{
+ 	width: 100%;
+ 	height: 30px;
+ 	
+ }
+ .onck-text input{
+ 	height: 26px;
+ 	width: 60%;
+ 	border-radius: 4px;
+ }
+ .onck-text  select{
+ 	height: 31px;
+ 	width:61%;
+ 	border-radius: 4px;
+ }
+.onck1{
+	width: 96%;
+	height: 54px;
+}
+.onck1-left div{
+	display: inline-block;
+	width: calc(70% / 2);
+	float: left;
+	margin-top: 20px;
+}
+.onck1-left div:nth-child(2){
+	margin-left: 20px;
+}
+.onck-date{
+	width: 200%;
+ 	height: 30px;
+}
+.onck-date input{
+	height: 26px;
+ 	width:42%;
+ 	border-radius: 4px;
+}
+.btn4{
+	width: 96%;
+	height: 120px;
+}
+.btn4 div{
+	display: inline-block;
+	width: calc(20% /3);
+	margin-top: 40px;
+	float: left;
+	margin-left: 20px;
+}
+.btn4-1 {
+	width: 100%;
+	height: 29px;
+	
+	text-align: center;
+	border-radius: 4px;
+	border: solid 1px gainsboro;
+	cursor: pointer;
+	line-height: 29px;
+}
+.btn-4-2{
+	line-height: 29px;
+}
+.btn4-1:hover{
+	border: solid 1px #03B8CC;
+}
+.btn-4-2 p:hover{
+	color: #03B8CC;
+}
+.btn4-1 p{
+	width: 100%;
+	height: 30px;
+}
+.btn4-2{
+	width: 8%;
+	height: 30px;
+}
+.btn4-2 input{
+	width: 100%;
+	height: 30px;
+	background-color: #72A2E0;
+	border: none;
+	border-radius: 4px;
+	color: white;
+}
+.btn4-2 input:hover{
+	background-color: #2F80D1;
+}
+.btn4-3{
+	width: 10%;
+	height: 30px;
+}
+.btn4-3 input{
+	width: 100%;
+	height: 30px;
+	background-color: #72A2E0;
+	border: none;
+	border-radius: 4px;
+	color: white;
+}
+.btn4-3 input:hover{
+	background-color: #2F80D1;
+}

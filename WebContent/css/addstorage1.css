@@ -1,0 +1,183 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	height: 100%;
+}
+.box{
+	width: 94%;
+	height:calc(100vh - 40px);
+	margin: 0 auto;
+	margin-top: 20px;
+	border: solid 1px #DDDDDD;
+	border-radius: 4px;
+}
+.box1{
+	width: 100%;
+	height:  8%;
+	background-color: #F4F4F4;
+}
+.font a{	
+	color: black;
+	text-decoration: none;
+	font-size: 13px;
+}
+.img img{
+	margin-top: 4px;
+	margin-left: 10px;
+}
+.font1{
+	position: relative;
+	right: 5px;
+	top: -4px;
+}
+.box1-1 {
+	width: 100%;
+	height: 100%;
+	border-bottom:solid 2px #DDDDDD ;
+}
+.box2{
+	width: 100%;
+	height:60vh;
+	margin-top: 50px;
+}
+
+.nav1{
+	width: 98%;
+	height: 100%;
+	margin: 0 auto;
+}
+.nav1 div{
+	height: 80%;
+	display: inline-block;
+	text-align: center;
+}
+.even td{/*必须加td，代表的是一行进行*/
+	  background-color:#BCD7DA;
+	  padding:2px 5px;
+	  }
+.even td:hover{
+	color: #2F80D1;
+	
+}
+td{
+	height: 30px;
+	border: solid 0.5px #DDDDDD;
+}
+.td22 p:hover{
+	color: #2F80D1;
+}
+.td2{
+	background-color: white;
+	cursor: pointer;
+	height: 100%;
+}
+input{
+	width: 100%;
+	height: 100%;
+	border: none;
+	border: solid 1px #DDDDDD;
+}
+select{
+	width: 100%;
+	height: 100%;
+	border: none;
+}
+table{
+	text-align: center;
+		border: solid 1px #DDDDDD;
+}
+.nav2{
+	width: 98%;
+	height: 240px;
+	margin: 0 auto;
+}
+.nav2-1{
+	width: 98%;
+	height: 40px;
+	margin-top: 20px;
+}
+.nav2-1 div{
+	display: inline-block;
+}
+.left{
+	width:50%;
+}
+.left1{
+	width: 28%;
+}
+.left3{
+	width: 28%;
+	vertical-align: top;
+}
+.right{
+	width:40%;
+}
+.right1{
+	
+}
+.input1{
+	width: 220%;
+	height: 35px;
+	border-radius: 3px;
+}
+.xx{
+	color: red;
+	position: relative;
+	top: 3px;
+}
+.textarea{
+	width: calc(100vh - 300px);
+	height: 110px;
+	resize:none;
+	border:  solid 1px #DDDDDD;
+	border-radius: 3px;
+}
+.nav3{
+	width: 98%;
+	height: 30px;
+	margin: 0 auto;
+	
+}
+.bnt{
+	width: 20%;
+	height: 30px;
+	margin: 0 auto;
+}
+.bnt div{
+	display: inline-block;
+	width: calc(100% / 2);
+	float: left;
+}
+.bnt1{
+	width: 50%;
+	height: 100%;
+}
+.bnt2{
+	width: 50%;
+	height: 100%;
+}
+.bnt1 button{
+	width: 60%;
+	height: 100%;
+	background-color: white;
+	border: solid 1px #DDDDDD;
+}
+.bnt1 button:hover{
+	border: solid 1px #2F80D1;
+	color: #2F80D1;
+}
+.bnt2 button:hover{
+	background-color: #63A3E2;
+}
+.bnt2 button{
+	width: 60%;
+	height: 100%;
+	background-color:#2F80D1;
+	color: white;
+}
+button{
+	border: none;
+	border-radius: 3px;
+}
